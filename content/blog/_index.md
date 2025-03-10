@@ -1,4 +1,4 @@
 ---
-title: "aafu theme"
-weight: 100
+title: "Blogs"
+date: 2025-03-09
 ---

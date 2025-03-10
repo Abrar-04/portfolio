@@ -1,14 +1,15 @@
-baseURL: https://aafu.pages.dev/
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+baseURL: 
 languageCode: en-us
 build:
   writeStats: true
 params:
-  title: aafu theme
-  author: Darshan Baral
+  title: Abrar CV
+  author: 
   description: Website title
-  copyright: >-
-    powered by [hugo](https://gohugo.io/) & deployed on
-    [Cloudflare](https://www.cloudflare.com/)
   theme:
     mainTheme: dark
     showAttribute: true
@@ -24,147 +25,135 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
-    photo: profile.jpg
+    name: "Mahboob Abrar Ali Syed"
+    tagline: 
+    location: "Hamburg, Germany"
+    photo: bild2.jpg
   social:
     title: Links
     list:
       - icon: fab fa-linkedin-in
-        url: "#"
+        url: "https://www.linkedin.com/in/syed-abrar-ali/"
         title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
-        title: StackOverflow
       - icon: fab fa-github
-        url: "#"
+        url: "https://github.com/Abrar-04"
         title: GitHub
-      - icon: fab fa-twitter
-        url: "#"
-        title: Twitter
-      - icon: fab fa-orcid
-        url: "#"
-        title: Orcid
       - icon: ai ai-google-scholar
-        url: "#"
+        url: "https://scholar.google.com/citations?user=8cp2KiMAAAAJ&hl=en"
         title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
-        title: ResearchGate
   showInAccordion:
     - item: aboutme
       expand: true
-    - item: experience
     - item: education
+    - item: experience
     - item: publication
     - item: project
-    - item: skill
+    - item: Skills
     - item: hobby
+
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
-  experience:
-    title: Experiences
-    icon: fas fa-briefcase
-    list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
-        details: |1-
-          - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
-      - position: Job Title
-        dates: 2018 - 2019
-        url: "#"
-        company: Company Name
+    description: A dedicated professional with a passion for problem solving with data-driven decision-making for user-centered
+                solutions. Motivated and eager to learn, thrive in collaborative environments, and make valuable contributions to
+                the modern day industry and to work towards a better future.
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
+      - degree: MSc Data Science
+        college: Technische Universität Hamburg
+        dates: 2024 - Present
+      - degree: BE Computer Science and Engineering
+        college: Osmania University
+        dates: 2018 -2022
+  experience:
+    title: Experiences
+    icon: fas fa-briefcase
+    list:
+      - position: Analyst
+        company: Deloitte Consulting
+        dates: Jan 2023 - Sept 2024
+        details: |1-
+          - Implemented robust error-handling mechanisms and bulk processing techniques to ensure the reliability and
+            scalability of custom Apex solutions and optimization of complex Apex triggers and classes to automate
+            business processes, resulting in a 30% increase in operational efficiency.
+          - Contributed to development of LWCs by optimizing healthcare workflows and enhancing the overall User
+            Interface and Experience. Achieved a 25% improvement in component load times, delivering a more responsive
+            and modern experience for critical healthcare system end users.
+          - Designed Interactive Reports and Dashboards to provide actionable insights on patient care metrics, trends
+            and other Healthcare KPIs, improving overall decision-making processes for stakeholders.
+          - Collaborated with clients and cross-functional teams and implemented regular code reviews, assisted in
+            Proof-of-Concept Ideations, Business-side presentations and demos.
+      - position: Machine Learning Engineer
+        dates: Jul 2012 - Dec 2022
+        company: Freelance
+        details: |1-
+          - Developed an image-based AI pipeline to detect and segment
+            individuals from group images, predicting their age and gender
+            using deep learning models. 
+          - Trained and fine-tuned YOLOv5 to detect and classify clothing
+            items (topwear, bottomwear, footwear) while implementing
+            background segmentation to enhance object recognition and
+            improve downstream processing. 
+          - Implemented a color analysis and feature embedding system by
+            extracting the top three dominant colors from clothing items
+            and generating TensorFlow embeddings, enabling content
+            based recommendations for fashion applications. 
+  
   publication:
     title: Publications
     icon: fas fa-book
-    format:
-      - date
-      - title
-      - authors
-      - journal
-    types:
-      - Journal Articles
-      - Proceedings
     list:
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Proceedings
+      - title: IEEE Xplore
+        url: "https://ieeexplore.ieee.org/abstract/document/9497809"
+        paper: Early Detection of Malpositioned Catheters and Lines on Chest X-Rays using Deep Learning
+        journal: "International Conference on Artificial Intelligence and
+                  Computer Science Technology - 2021, Indonesia"
+
   project:
     title: Projects
     icon: fas fa-project-diagram
     list:
-      - title: Project 1
-        url: "#"
-        description: Description of the project
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
-  skill:
+      - title: Dr.Detect
+        url: "https://github.com/MSufiyanAG/dr_detect"
+        details: |1-
+          - Designed and Developed a Web Application for early diagnosis of reports of 6 medical conditions by detecting
+            and classifying abnormalities based on severity even in the absence of a medical specialist.
+          - Data collected from reputed medical sources and trained over State-of-the-Art architectures (UNet,DenseNet)
+          - Conducted Data & Feature Engineering and Deployed the application on Azure to ensure realiability.
+          - Conducted Surveys to refine the app's user interface and enhance the user experience. 
+      - title: Swachh-Companion
+        url: "https://github.com/syedwajid01/Swachh-Companion"
+        details: |1-
+          - Built a Mobile Application to assist in waste segregation into biodegradable and non-biodegradable categories
+          - Collected, processed, and analyzed image data to improve classification accuracy by training and optimizing
+            the MobileNet model. Deployed using TensorFlow Lite for faster real-time inference.
+          - Included a feature to connect volunteers seeking to help NGOS in fostering community engagement in
+            recycling and cleaning for a better cause.
+  Skills:
     title: Skills
-    panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: "Skill 1, Skill 2"
-        skillrating: 90
-      - skill: Skill 3
-        skillrating: 80
-      - skill: Skill 4
-        skillrating: 50
+      - title: Languages 
+        description: |1-
+          -  Python, R, JavaScript, Java, SQL
+      - title: Developer Tools 
+        description: |1-
+          -  PowerBI, Tableau, Docker, Salesforce Development [Apex, LWC], Jupyter Notebooks, Microsoft Office Suite
+      - title: Technologies/Frameworks
+        description: |1-
+          -  Linux, Git, Sklearn, Numpy, Pandas, Matplotlib, PyTorch, TensorFlow, OpenCV
+      - title: Soft skills
+        description: |1-
+          -  User Research, Journey Mapping, Design Thinking, Business Intelligence
+
   hobby:
     title: Hobbies
     icon: fas fa-gamepad
     list:
+      - hobby: Gaming
+      - hobby: Sports
+      - hobby: Sketching
       - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+

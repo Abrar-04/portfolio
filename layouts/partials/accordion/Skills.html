@@ -1,0 +1,6 @@
+{{ range.Site.Params.Skills.list }}
+<h4>
+  <b>{{- .title -}}</b>
+</h4>
+<p class="markdownify indent-8">{{- .description | markdownify -}}</p>
+{{ end }}
