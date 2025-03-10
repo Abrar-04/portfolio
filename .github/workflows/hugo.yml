@@ -58,9 +58,6 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: ZIP public directory
-        run: |
-          tar -czf public.tar.gz public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
