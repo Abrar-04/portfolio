@@ -2,7 +2,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-baseURL: 
+baseURL: https://abrar-04.github.io/portfolio/
 languageCode: en-us
 build:
   writeStats: true
