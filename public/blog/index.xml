@@ -1,6 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on</title><link>http://localhost:1313/portfolio/blog/</link><description>Recent content in Blogs on</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/portfolio/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hotel Reservation PowerBI Dashboard</title><link>http://localhost:1313/portfolio/blog/blog1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/blog/blog1/</guid><description>&lt;p>
-&lt;iframe title="Hotel Reservation" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZWQyNTIwODgtNWU0YS00ZTFmLTgyNWItYWQ1NjJhNmMwMmNiIiwidCI6Ijg5OTI4NDk3LTY5NjMtNDk5Yi04YjQ3LTE3Mzg2ZGIxNjVkMyJ9" frameborder="0" allowFullScreen="true">&lt;/iframe>
-&lt;/p></description></item><item><title>SuperStore PowerBI Dashboard</title><link>http://localhost:1313/portfolio/blog/blog2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/portfolio/blog/blog2/</guid><description>&lt;p>
-&lt;iframe title="SuperStore" width="600" height="373.5" 
-src="https://app.powerbi.com/view?r=eyJrIjoiNGNmYjlmYmEtNzIzNy00ZjMxLTllOWMtNmU4OTY5ODExMjYzIiwidCI6Ijg5OTI4NDk3LTY5NjMtNDk5Yi04YjQ3LTE3Mzg2ZGIxNjVkMyJ9" frameborder="0">&lt;/iframe>
-&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on </title>
+    <link>http://localhost:1313/portfolio/blog/</link>
+    <description>Recent content in Blogs on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hotel Reservation PowerBI Dashboard</title>
+      <link>http://localhost:1313/portfolio/blog/blog1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/blog/blog1/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;iframe title=&#34;Hotel Reservation&#34; width=&#34;600&#34; height=&#34;373.5&#34; src=&#34;https://app.powerbi.com/view?r=eyJrIjoiZWQyNTIwODgtNWU0YS00ZTFmLTgyNWItYWQ1NjJhNmMwMmNiIiwidCI6Ijg5OTI4NDk3LTY5NjMtNDk5Yi04YjQ3LTE3Mzg2ZGIxNjVkMyJ9&#34; frameborder=&#34;0&#34; allowFullScreen=&#34;true&#34;&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SuperStore PowerBI Dashboard</title>
+      <link>http://localhost:1313/portfolio/blog/blog2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/blog/blog2/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;iframe title=&#34;SuperStore&#34; width=&#34;600&#34; height=&#34;373.5&#34; &#xD;&#xA;src=&#34;https://app.powerbi.com/view?r=eyJrIjoiNGNmYjlmYmEtNzIzNy00ZjMxLTllOWMtNmU4OTY5ODExMjYzIiwidCI6Ijg5OTI4NDk3LTY5NjMtNDk5Yi04YjQ3LTE3Mzg2ZGIxNjVkMyJ9&#34; frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
