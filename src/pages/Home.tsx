@@ -26,7 +26,7 @@ export default function Home() {
             <a className="button button-outline" href={profile.linkedin} target="_blank" rel="noreferrer"><Linkedin size={17} /> Connect on LinkedIn</a>
           </div>
         </div>
-        <div className="hero-portrait-wrap"><div className="hero-portrait-frame"><img src="/images/abrar-portrait.webp" alt="Portrait of Abrar" loading="eager" /></div><div className="portrait-meta"><span>MAHBOOB ABRAR ALI SYED</span><span>HAMBURG · GERMANY</span></div></div>
+        <div className="hero-portrait-wrap"><div className="hero-portrait-frame"><img src={`${import.meta.env.BASE_URL}images/abrar-portrait.webp`} alt="Portrait of Abrar" loading="eager" /></div><div className="portrait-meta"><span>MAHBOOB ABRAR ALI SYED</span><span>HAMBURG · GERMANY</span></div></div>
       </div>
       <div className="hero-bottom"><span>EXPLORE MY PORTFOLIO</span><ArrowDown size={15} /><span className="hero-bottom-right">STRATEGY <span>·</span> ENGINEERING <span>·</span> IMPACT</span></div>
     </section>
